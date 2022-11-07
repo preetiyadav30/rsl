@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dd11c062.css",
+    "main.js": "/static/js/main.4227b4de.js",
+    "static/js/787.5d86c2a1.chunk.js": "/static/js/787.5d86c2a1.chunk.js",
+    "static/media/graphicdesign.jpg": "/static/media/graphicdesign.616314c596ed3c7513fc.jpg",
+    "static/media/ab.png": "/static/media/ab.98eeb557151b3fbc36fe.png",
+    "static/media/ios2.jpg": "/static/media/ios2.74e973e3228b36c5e5ee.jpg",
+    "static/media/webdevelopment.jpg": "/static/media/webdevelopment.2678b38f25a923e66328.jpg",
+    "static/media/android2.jpg": "/static/media/android2.b31109584b424fbfc290.jpg",
+    "static/media/student.jpg": "/static/media/student.19fd060922c5921e0b38.jpg",
+    "static/media/lokeshsir.png": "/static/media/lokeshsir.7b2e23c522086917b959.png",
+    "static/media/webdesign.jpg": "/static/media/webdesign.b51722100b952bb670f6.jpg",
+    "static/media/ab-removebg-preview.png": "/static/media/ab-removebg-preview.ecba4ec2c52a07dcb8d3.png",
+    "static/media/ice1.png": "/static/media/ice1.1f98e9684ee51a4de0dd.png",
+    "static/media/hr.jpeg": "/static/media/hr.f1a9277a34a8101909ad.jpeg",
+    "static/media/rslLogo.png": "/static/media/rslLogo.8fcf34a5f9e23b79638b.png",
+    "static/media/eblogo.png": "/static/media/eblogo.a775f24fd5e373dcbc68.png",
+    "static/media/cuff111.png": "/static/media/cuff111.953268520c47cddf4aba.png",
+    "static/media/autism.jpg": "/static/media/autism.a7b402bf6e08ba03d9ef.jpg",
+    "static/media/ih1.png": "/static/media/ih1.4564f64cbf614a1dd91c.png",
+    "index.html": "/index.html",
+    "main.dd11c062.css.map": "/static/css/main.dd11c062.css.map",
+    "main.4227b4de.js.map": "/static/js/main.4227b4de.js.map",
+    "787.5d86c2a1.chunk.js.map": "/static/js/787.5d86c2a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd11c062.css",
+    "static/js/main.4227b4de.js"
+  ]
+}
