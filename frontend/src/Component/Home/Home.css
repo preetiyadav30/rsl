@@ -1,0 +1,361 @@
+
+
+.heading-all {
+
+  font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 64px !important;
+  color: black !important ;
+ 
+  font-weight: 400 !important;
+  color: #181818 !important
+}
+
+.paragraph-all {
+  font-weight: 200;
+  color: black;
+
+  padding: 10px;
+}
+
+.firefly {
+  margin-top: 6%;
+  background-image: url("../img/student.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  height: 700px !important;
+}
+
+.overlay {
+  background: #0808f617;
+  background-size: 100% 100%;
+  height: 700px !important;
+}
+
+.wellcome-to {
+  background: #ab6b553b;
+  padding: 20px 0px 0px 20px !important;
+  
+}
+
+.wellcome-to-para {
+  background: #ab6b553b !important;
+
+  padding: 20px 0px 0px 20px !important;
+  font-weight: 400 !important;
+}
+
+.wellcome-to-btn {
+  background: #ab6b553b;
+  padding: 20px;
+}
+
+
+.btn-get-started {
+  border-radius: 360px !important;
+  background-color: black !important;
+  color: white !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+  text-transform: none !important;
+  font-size: 19px  !important;
+ 
+}
+
+.btn-get-started:hover {
+  color: rgb(0, 0, 0) !important;
+  background-color: #dedee0ad !important;
+  font-weight: bold;
+}
+
+/* card css top  */
+
+.card1 {
+  background-color: #dddffe18 !important;
+  -webkit-transition: all 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95) !important;
+  transition: all 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95) !important;
+}
+.card1:hover {
+  border-radius: 4px;
+  box-shadow: 0 8px 28px 0px #bf6e5134;
+}
+.iconn {
+  text-align: center;
+  margin: 22px;
+  margin-bottom: -5px !important;
+}
+.icon {
+  font-size: 52px !important;
+  border-radius: 10px !important;
+  background-color: #eeeeee;
+  /* padding: 10px; */
+  padding: 10px 15px 10px 15px;
+  color: rgb(40 22 112);
+  box-shadow: 0px 2px 3px;
+}
+
+.title {
+  color: rgb(0, 0, 0) !important;
+}
+.textt {
+  color: rgba(0, 0, 0, 0.728) !important;
+}
+
+/* count card css  */
+
+.count-iconn {
+  text-align: center;
+  margin: 22px;
+  margin-left: -123px;
+
+  margin-bottom: -35px !important;
+}
+
+/* end count card css  */
+
+.icon-count1 {
+  font-size: 60px !important;
+  border-top-left-radius: 30px !important;
+  border-bottom-right-radius: 30px !important;
+
+  background-color: #bf6e513c;
+  /* padding: 10px; */
+  padding: 10px 15px 10px 15px;
+  color: rgb(0, 0, 0);
+}
+.card-port {
+  text-align: -webkit-center;
+}
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --varyDarkBlue: hsl(234, 12%, 34%);
+  --grayishBlue: hsl(229, 6%, 66%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  --weight1: 200;
+  --weight2: bold;
+  --weight3: 600;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+h1:first-of-type {
+  font-weight: var(--weight1);
+  color: var(--varyDarkBlue);
+}
+
+.header {
+  text-align: center;
+  line-height: 0.8;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.header p {
+  margin: 0 auto;
+  line-height: 2;
+  color: var(--grayishBlue);
+}
+
+.home-para {
+  color: var(--grayishBlue);
+  font-size: 11px;
+}
+
+.box {
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+  padding: 30px;
+  margin: 20px;
+}
+
+img {
+  float: right;
+}
+
+@media (max-width: 450px) {
+  .box {
+    height: 250px;
+  }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+  .box {
+    text-align: center;
+    height: 180px;
+  }
+}
+
+.cyan {
+  border-top: 3px solid var(--cyan);
+}
+.red {
+  border-top: 3px solid var(--red);
+}
+.blue {
+  border-top: 3px solid var(--blue);
+}
+.orange {
+  border-top: 3px solid var(--orange);
+}
+
+.home-heading {
+  color: var(--varyDarkBlue);
+  font-weight: var(--weight3);
+  font-size: 20px;
+}
+
+@media (min-width: 950px) {
+  .row1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-down {
+    position: relative;
+    top: 150px;
+    -webkit-animation: grow 1s linear 0s infinite alternate !important;
+    -moz-animation: grow 1s linear 0s infinite alternate !important;
+    -ms-animation: grow 1s linear 0s infinite alternate !important ;
+    -o-animation: grow 1s linear 0s infinite alternate !important;
+    animation: grow 1s linear 0s infinite alternate !important;
+  }
+  .box {
+    width: 20%;
+    -webkit-animation: grow 1s linear 0s infinite alternate !important;
+    -moz-animation: grow 1s linear 0s infinite alternate !important;
+    -ms-animation: grow 1s linear 0s infinite alternate !important ;
+    -o-animation: grow 1s linear 0s infinite alternate !important;
+    animation: grow 1s linear 0s infinite alternate !important;
+  }
+  .header p {
+    width: 30%;
+  }
+}
+
+.ani-boxes > div {
+  background: #f2f2f2;
+  color: #fff;
+  border-radius: 4px;
+  padding: 1em;
+  margin: 0 0 1em;
+  width: 300px;
+}
+.ani-boxes:nth-child(even) > div {
+  background: #27b4a8;
+}
+
+.ani-boxes:nth-child(odd) > div {
+  background: #f4645f;
+}
+
+
+
+.box{
+  position: relative !important;
+  animation-name: example !important ;
+  animation-duration: 5s !important;
+  animation-iteration-count: infinite !important; 
+}
+@keyframes example {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/* @keyframes example {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+} */
+
+
+
+
+
+
+
+
+ 
+
+
+ .box {
+    
+  /* 
+   * Make the initial position to be the center of the circle you want this
+   * object follow.
+   */
+  /* position: absolute; */
+  /* left: 315px;
+  top: 143px; */
+
+  /*
+   * Sets up the animation duration, timing-function (or easing)
+   * and iteration-count. Ensure you use the appropriate vendor-specific 
+   * prefixes as well as the official syntax for now. Remember, tools like 
+   * CSS Please are your friends!
+   */
+  -webkit-animation: myOrbit 4s linear infinite; /* Chrome, Safari 5 */
+     -moz-animation: myOrbit 4s linear infinite; /* Firefox 5-15 */
+       -o-animation: myOrbit 4s linear infinite; /* Opera 12+ */
+          animation: myOrbit 4s linear infinite; /* Chrome, Firefox 16+, 
+                                                    IE 10+, Safari 5 */
+  
+  
+  
+}
+
+/*
+* Set up the keyframes to actually describe the begining and end states of 
+* the animation.  The browser will interpolate all the frames between these 
+* points.  Again, remember your vendor-specific prefixes for now!
+*/
+@-webkit-keyframes myOrbit {
+  from { -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+  to   { -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit {
+  from { -moz-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+  to   { -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit {
+  from { -o-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+  to   { -o-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@keyframes myOrbit {
+  from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}

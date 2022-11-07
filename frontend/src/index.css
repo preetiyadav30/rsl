@@ -1,0 +1,13 @@
+.logo{
+  width: 100px;
+  /* background-color: 2E2230; */
+}
+.appbar{
+  /* background-color: hsla(0,0%,57.6%,.1); */
+  /* backdrop-filter: blur(20px); */
+  -webkit-backdrop-filter: blur(20px);}
+
+  .toolbar{
+   transition: none !important;
+   box-shadow: none !important;
+  }

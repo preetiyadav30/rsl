@@ -1,0 +1,89 @@
+
+.heading-contact{
+  
+  font-size: 24px !important;
+  color: black !important ;
+  text-align: center !important ;
+  font-weight: 700 !important;
+  color: #181818 !important;
+  /* text-shadow: 0px 2px 2px #a6f8d5 !important; */
+
+
+
+}
+#overflowTest {
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+    overflow-y: hidden;
+  }
+
+  .address-contact{
+    text-align: -webkit-center;
+  
+  }
+.ico-contact{
+  background-color: rgb(0, 0, 0);
+
+    font-size: 18px;
+    padding: 14px 12px 9px 12px;
+    border-radius: 360px;
+    color: white;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    -webkit-transition: all .2s ease-in-out;
+}
+.card-address{
+  box-shadow: 2px 0px 5px;
+
+}
+.card-contact{
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 8%), 0 4px 15px 0 rgb(0 0 0 / 0%);
+  border-radius: 0px !important;
+ 
+}
+  
+
+
+
+.btn-contact{
+  color: white !important;
+  background-color: rgb(0, 0, 0) !important;
+  text-transform: uppercase !important;
+  word-wrap: break-word !important;
+  white-space: normal !important;
+  cursor: pointer !important;
+  border: 0 !important;
+  border-radius: 0.125rem !important;
+  -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%) !important;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%) !important;
+ 
+  padding: 0.84rem 2.14rem !important;
+  font-size: .81rem !important;
+}
+.btn-contact:hover{
+  background-color: rgba(244, 236, 232, 0.532) !important;
+  color: black !important;
+}
+
+
+
+.map{
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+}
+.input-form-contact{
+  border-radius: 0px;
+  border: none !important;
+  border-bottom: 1px solid rgb(112,121,129) !important;
+  margin-top: 10%;
+  width: 80%;
+ 
+}
+
+
+
